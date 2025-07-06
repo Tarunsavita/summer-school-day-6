@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Weather from Current Location",
+  "version": "1.0",
+  "description": "Displays current weather based on your location using WeatherAPI.",
+  "permissions": ["geolocation"],
+  "host_permissions": ["https://api.weatherapi.com/"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
+}

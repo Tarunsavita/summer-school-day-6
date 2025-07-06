@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 260px;
+}
+
+main {
+    background: linear-gradient(to top, #2980B9, #6DD5FA, #FFFFFF);
+    padding: 20px 0px;
+    border-radius: 22px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: black;
+    color: bisque;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#weatherResult {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#loader {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000;
+    ;
+}
+
+.hidden {
+    display: none;
+}
+
+.unit-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.unit-toggle input[type="radio"] {
+    margin-right: 6px;
+    accent-color: #4caf50;
+}
+
+.unit-toggle label {
+    cursor: pointer;
+    user-select: none;
+}
